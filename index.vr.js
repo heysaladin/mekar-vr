@@ -12,7 +12,7 @@ export default class WelcomeToVR extends React.Component {
   render() {
     return (
       <View>
-        <Pano source={asset('chess-world.jpg')}/>
+        <Pano source={asset('1280px-Botanischer_garten_panorama_mittel.jpg')}/>
         {/*<Text
           style={{
             backgroundColor: '#777879',
@@ -41,7 +41,7 @@ export default class WelcomeToVR extends React.Component {
           }}
           source={require('./logo.png')}
         />*/}
-        {/**/}<Image source={require('./logo.png')}
+        {/**/}<Image source={require('./img/logo.png')}
                style={{
                 // backgroundColor: '#777879',
             fontSize: 0.8,
@@ -52,7 +52,7 @@ export default class WelcomeToVR extends React.Component {
             textAlign: 'center',
             textAlignVertical: 'center',
             transform: [{translate: [0, 0, -3]}],
-            width: 3.5, height: 1}} />
+            width: 3.3, height: 1}} />
       </View>
     );
   }
